@@ -1,0 +1,7 @@
+@import 'settings/settings';
+@import 'tools/tools';
+@import 'generic/reset';
+@import 'modifiers/modifiers';
+@import 'components/components';
+
+.header{height: 100vh;background-image: url('../images/banner.jpg');background-size: cover;background-repeat: no-repeat;}

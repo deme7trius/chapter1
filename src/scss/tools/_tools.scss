@@ -1,0 +1,21 @@
+@import 'settings/settings.scss';
+
+@mixin buttonTemp($buttonbc:#f32853, $buttonc:$red,$buttonfs: 1.35em){
+	background-color: $buttonbc;
+	color: $buttonc;
+	font-size: $buttonfs;
+	font-weight: 700;
+	line-height: 3.25em;
+	height: 3.15em;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 0;
+	border-radius: 4px;
+	transition: .5s ease-in;
+}
+%roundImage{
+	border: solid 0.5em rgba(144, 144, 144, 0.25);
+	border-radius: 50%;
+}
